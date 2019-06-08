@@ -102,7 +102,7 @@
 #header h1.typed {
   color: #fff;
   text-transform: uppercase;
-  padding-top: 20%;
+  padding-top: 50%;
   text-align: right;
   font-family: aldrich, "sans serif";
   text-shadow: 0 0 5px #fff;
@@ -112,7 +112,37 @@
   padding: 2px;
   border-radius: 3px;
 }
+#header .more {
+  font-size: 3rem;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #494343;
+  background: linear-gradient(0deg, rgba(73, 67, 67, 0.78) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: all 0.3s ease-in-out;
+}
+#header .more svg {
+  transition: all 0.3s ease-in-out;
+  animation: arrowDown 1s ease-in-out infinite;
+}
+#header .more:hover {
+  background: #0a140a;
+  background: linear-gradient(0deg, rgba(73, 67, 67, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
+}
 
+@keyframes arrowDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 #about {
   height: 300px;
 }
@@ -181,6 +211,101 @@
 #WhyChooseUs .container .content p {
   line-height: 2em;
   letter-spacing: 2px;
+}
+
+#developers {
+  background-color: #E5E5E5;
+  padding-bottom: 30px;
+}
+#developers .container-fluid {
+  padding: 0;
+}
+#developers .title {
+  color: #2D2D2D;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+#developers .title h3 {
+  margin: 0;
+}
+#developers .devs-cards {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#developers .devs-cards .dev-card {
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  overflow: hidden;
+  list-style: none;
+  height: 350px;
+  margin: 15px 30px;
+  padding-bottom: 15px;
+  box-shadow: -2px 10px 20px #b2b2b2;
+  transition: all 0.3s ease;
+}
+#developers .devs-cards .dev-card:hover {
+  box-shadow: -2px 5px 15px #b2b2b2;
+}
+#developers .devs-cards .dev-card:hover img {
+  filter: grayscale(0);
+  transform: scale(1.01);
+}
+#developers .devs-cards .dev-card:hover .dev-social-links {
+  display: block;
+}
+#developers .devs-cards .dev-card img {
+  width: 100%;
+  height: 250px;
+  display: block;
+  filter: grayscale(1);
+  transition: 3s ease;
+}
+#developers .devs-cards .dev-card .dev-name {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px auto 0;
+  transition: all 0.3s ease-in;
+}
+#developers .devs-cards .dev-card .dev-title {
+  text-align: center;
+  display: block;
+  font-size: 0.9em;
+  transition: all 0.3s ease-in;
+}
+#developers .devs-cards .dev-card .dev-social-links {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+#developers .devs-cards .dev-card .dev-social-links li {
+  list-style: none;
+  display: inline-block;
+}
+#developers .devs-cards .dev-card .dev-social-links li .social-icon {
+  width: 50px;
+  height: 50px;
+  transform: scale(0);
+  transition: all 0.3s ease;
+}
+#developers .devs-cards .dev-card:hover {
+  height: 360px;
+}
+#developers .devs-cards .dev-card:hover .dev-social-links li .social-icon {
+  transform: scale(1);
+}
+#developers .devs-cards .dev-card:hover .dev-social-links li .social-icon:hover {
+  transform: translateX(-5px);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
