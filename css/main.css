@@ -113,6 +113,40 @@
   border-radius: 3px;
 }
 
+#about {
+  height: 300px;
+}
+#about .container {
+  position: relative;
+  height: 100%;
+}
+#about .container .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #E5E5E5;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+#about .container .title h5 {
+  margin: 10px;
+}
+#about .container .content {
+  position: absolute;
+  left: 60px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#about .container .content p {
+  line-height: 2em;
+  letter-spacing: 2px;
+}
+
 a {
   color: inherit;
 }
