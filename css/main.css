@@ -147,6 +147,42 @@
   letter-spacing: 2px;
 }
 
+#WhyChooseUs {
+  height: 300px;
+  background-color: #E5E5E5;
+}
+#WhyChooseUs .container {
+  position: relative;
+  height: 100%;
+}
+#WhyChooseUs .container .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFFFFF;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+#WhyChooseUs .container .title h5 {
+  margin: 10px;
+}
+#WhyChooseUs .container .content {
+  text-align: right;
+  position: absolute;
+  right: 60px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#WhyChooseUs .container .content p {
+  line-height: 2em;
+  letter-spacing: 2px;
+}
+
 a {
   color: inherit;
 }

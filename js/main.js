@@ -14,7 +14,11 @@ $(window).on('load', function() {
     "to achieve <span>most benifit</span>."
    ]);
     
-   
+   // To Set About and WhyChooseUs Heights.
+   setAboutHeight('#about');
+   setAboutHeight('#WhyChooseUs');
+
+
 
    });
 
@@ -33,4 +37,11 @@ var setHeaderHeight = function () {
         navbarHeight = $('#navbar').innerHeight();
 
     $('#header').css('height', myWindowHeight - navbarHeight + 'px');
+}
+
+var setAboutHeight = function (el) {
+    var windowH = $(window).innerHeight(),
+        navH = $('#navbar').innerHeight();
+
+    $(el).css('height', (windowH - navH) / 2 + 'px')
 }
