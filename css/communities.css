@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+footer {
+  height: 200px;
+  background-color: #2D2D2D;
+  text-align: center;
+  color: #FFFFFF;
+}
+footer h5 {
+  line-height: 200px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer h5 span.heart-beating {
+  color: #CB4545;
+}
+footer h5 span.heart-beating svg {
+  animation: beating 0.5s infinite linear;
+}
+
+@keyframes beating {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#navbar {
+  background: linear-gradient(118.98deg, #AC42B6 0.36%, #CB4545 100%);
+  padding: 0;
+}
+#navbar .container {
+  height: 100%;
+}
+#navbar .navbar-brand {
+  display: inline-block;
+}
+#navbar .navbar-brand {
+  font-weight: bolder;
+  font-family: "Aldrich", sans-serif;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #eee;
+}
+#navbar .navbar-brand span {
+  color: #CB4545;
+}
+#navbar ul li {
+  margin-left: 15px;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+#navbar ul li.active {
+  border-bottom: 4px solid #FFFFFF;
+}
+#navbar ul li svg {
+  margin-right: 5px;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+/*# sourceMappingURL=communities.css.map */

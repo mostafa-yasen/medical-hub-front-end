@@ -53,35 +53,32 @@
   }
 }
 #navbar {
-  background: linear-gradient(118.98deg, #AC42B6 0.36%, #DC3030 100%);
+  background: linear-gradient(118.98deg, #AC42B6 0.36%, #CB4545 100%);
+  padding: 0;
+}
+#navbar .container {
+  height: 100%;
 }
 #navbar .navbar-brand {
   display: inline-block;
 }
-#navbar h2 {
-  display: inline-block;
+#navbar .navbar-brand {
   font-weight: bolder;
   font-family: "Aldrich", sans-serif;
-  margin: 0;
   margin-top: 5px;
-}
-#navbar h2 a {
   text-transform: uppercase;
   color: #eee;
 }
-#navbar h2 a span {
-  color: #FF4874;
-}
-#navbar ul {
-  padding: 0;
-  margin: 0;
-  display: inline-block;
+#navbar .navbar-brand span {
+  color: #CB4545;
 }
 #navbar ul li {
-  list-style: none;
-  display: inline-block;
   margin-left: 15px;
-  color: #eee;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+#navbar ul li.active {
+  border-bottom: 4px solid #FFFFFF;
 }
 #navbar ul li svg {
   margin-right: 5px;
