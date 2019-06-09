@@ -22,9 +22,6 @@ footer h5 {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-footer h5 span.heart-beating {
-  color: #CB4545;
-}
 footer h5 span.heart-beating svg {
   animation: beating 0.5s infinite linear;
 }
@@ -56,9 +53,11 @@ footer h5 span.heart-beating svg {
   margin-top: 5px;
   text-transform: uppercase;
   color: #eee;
+  font-weight: bolder;
 }
 #navbar .navbar-brand span {
-  color: #CB4545;
+  font-weight: 800;
+  color: #ce5151;
 }
 #navbar ul li {
   margin-left: 15px;
