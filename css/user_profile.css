@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+footer {
+  height: 200px;
+  background-color: #2D2D2D;
+  text-align: center;
+  color: #FFFFFF;
+}
+footer h5 {
+  line-height: 200px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer h5 span.heart-beating svg {
+  animation: beating 0.5s infinite linear;
+}
+
+@keyframes beating {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#navbar {
+  background: linear-gradient(118.98deg, #AC42B6 0.36%, #CB4545 100%);
+  padding: 0;
+}
+#navbar .container {
+  height: 100%;
+}
+#navbar .navbar-brand {
+  display: inline-block;
+}
+#navbar .navbar-brand {
+  font-weight: bolder;
+  font-family: "Aldrich", sans-serif;
+  padding: 0;
+  text-transform: uppercase;
+  color: #eee;
+  font-weight: bolder;
+}
+#navbar .navbar-brand span {
+  font-weight: 800;
+  color: #ce5151;
+}
+#navbar ul li {
+  margin-left: 15px;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+}
+#navbar ul li.active {
+  border-bottom: 4px solid #FFFFFF;
+}
+#navbar ul li svg {
+  margin-right: 5px;
+}
+
+#profile-content .profile-image {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#profile-content .profile-image img {
+  height: 100%;
+  width: 100%;
+}
+#profile-content .user-info .user-info-name {
+  font-size: 2em;
+  color: #2D2D2D;
+}
+#profile-content .user-info h6 {
+  color: #606060;
+}
+#profile-content .medical-info h3 {
+  text-transform: capitalize;
+}
+#profile-content .medical-info .medical-info-items {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+#profile-content .medical-info .medical-info-items .medical-info-item {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #E5E5E5;
+  width: 80%;
+  border-radius: 5px;
+}
+#profile-content .prev-diagnoses .diagnose .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#profile-content .prev-diagnoses .diagnose .card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  padding: 1px;
+  border: 1px solid #606060;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px 10px 5px 0;
+}
+#profile-content .prev-diagnoses .diagnose .card .card-title {
+  font-size: 1.5rem;
+}
+#profile-content .prev-diagnoses .diagnose .card .card-text {
+  color: #606060;
+}
+
+/*# sourceMappingURL=user_profile.css.map */
