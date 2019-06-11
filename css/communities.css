@@ -130,6 +130,9 @@ footer h5 span.heart-beating svg {
   margin: 5px auto;
   letter-spacing: 0.8px;
 }
+.community-card p.community-description .read-more {
+  color: #CB4545;
+}
 .community-card .btns-container {
   position: absolute;
   bottom: 0;
