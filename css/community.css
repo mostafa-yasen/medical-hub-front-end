@@ -114,54 +114,14 @@ footer h5 span.heart-beating svg {
   margin-right: 5px;
 }
 
-#doctors {
-  background-color: #E5E5E5;
-  min-height: calc(100vh - 46px);
+.top-doctors {
+  box-shadow: -2px 2px 15px rgba(45, 45, 45, 0.2);
+  transition: 0.3s ease;
+  position: sticky;
+  top: 30px;
 }
-#doctors form {
-  width: 75%;
-}
-#doctors .card {
-  background-color: #FFFFFF;
-  box-shadow: -4px 4px 5px 0 rgba(45, 45, 45, 0.1), 4px 2px 5px 0 rgba(45, 45, 45, 0.1);
-  border: none;
-  overflow: hidden;
-  transition: box-shadow 0.3s ease;
-}
-#doctors .card .doctor-name {
-  font-size: 1em;
-}
-#doctors .card .doctor-name span.doctor-rate {
-  font-size: 15px;
-  color: #ffd91d;
-}
-#doctors .card .doctor-address {
-  margin-bottom: 5px;
-}
-#doctors .card .doctor-address svg {
-  color: #CB4545;
-  font-size: 1.2em;
-  margin-right: 5px;
-}
-#doctors .card .doctor-speciality {
-  margin-bottom: 5px;
-}
-#doctors .card .doctor-speciality svg {
-  color: #36AA95;
-  font-size: 1.2em;
-  margin-right: 5px;
-}
-#doctors .card .image-container {
-  height: 100%;
-}
-#doctors .card .image-container img {
-  border-radius: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-#doctors .card:hover {
-  box-shadow: -2px 0 5px 0 rgba(45, 45, 45, 0.1), 2px 0 5px 0 rgba(45, 45, 45, 0.1);
+.top-doctors:hover {
+  box-shadow: -2px 2px 5px rgba(255, 217, 29, 0.2);
 }
 
-/*# sourceMappingURL=doctors.css.map */
+/*# sourceMappingURL=community.css.map */

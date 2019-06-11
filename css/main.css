@@ -313,6 +313,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #E5E5E5;
+}
+
 a {
   color: #FFFFFF;
   cursor: pointer;
@@ -323,6 +327,7 @@ a:hover {
 }
 
 footer {
+  height: 60px;
   background-color: #2D2D2D;
   text-align: center;
   color: #FFFFFF;
@@ -359,6 +364,14 @@ footer h5 span.heart-beating svg {
 
 .text-fadded-2 {
   color: #939393;
+}
+
+.text-small {
+  font-size: 0.8em;
+}
+
+.text-lite {
+  font-weight: lighter;
 }
 
 @keyframes beating {
