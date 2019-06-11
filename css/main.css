@@ -74,6 +74,12 @@
   font-weight: 800;
   color: #ce5151;
 }
+#navbar #navLinks {
+  height: 46px;
+}
+#navbar ul {
+  height: 100%;
+}
 #navbar ul li {
   margin-left: 15px;
   color: #FFFFFF;
@@ -308,7 +314,8 @@ html {
 }
 
 a {
-  color: inherit;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 a:hover {
   color: #bbbbbb;
@@ -316,19 +323,42 @@ a:hover {
 }
 
 footer {
-  height: 200px;
   background-color: #2D2D2D;
   text-align: center;
   color: #FFFFFF;
 }
 footer h5 {
-  line-height: 200px;
+  padding: 15px 0;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+footer h5 span.heart-beating {
+  color: #CB4545;
+}
 footer h5 span.heart-beating svg {
   animation: beating 0.5s infinite linear;
+}
+
+.img-container {
+  overflow: hidden;
+  height: 100%;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-fadded {
+  color: #474747;
+}
+
+.text-fadded-1 {
+  color: #606060;
+}
+
+.text-fadded-2 {
+  color: #939393;
 }
 
 @keyframes beating {
