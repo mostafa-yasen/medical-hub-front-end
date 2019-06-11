@@ -124,4 +124,8 @@ footer h5 span.heart-beating svg {
   box-shadow: -2px 2px 5px rgba(255, 217, 29, 0.2);
 }
 
+.post-card {
+  box-shadow: -6px 6px 6px 0 rgba(45, 45, 45, 0.2);
+}
+
 /*# sourceMappingURL=community.css.map */
