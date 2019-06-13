@@ -10,6 +10,7 @@ $(function () {
         modal.find('.modal-community-name').text(COMMUNITY)
       })
 
+    //  Change Subscribe button's style after subscribtion.
     $('#confirm-subscribe').on('click', function (event) {
         $('#diabites-card').find('.subscribe-btn').removeClass('btn-outline-danger').addClass("btn-secondary btn-disabled").attr('disabled', 'true');
         $('#subscribe').modal('hide');

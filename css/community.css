@@ -4,6 +4,7 @@ html {
 
 body {
   background-color: #E5E5E5;
+  min-height: 100vh;
 }
 
 a {
@@ -126,6 +127,16 @@ footer h5 span.heart-beating svg {
 
 .post-card {
   box-shadow: -6px 6px 6px 0 rgba(45, 45, 45, 0.2);
+}
+.post-card .btn-like.active {
+  transition: 0.3s ease;
+}
+.post-card .btn-like.active.active {
+  background-color: #CB4545;
+  border-radius: 3px;
+}
+.post-card .btn-like.active.active a {
+  color: #FFFFFF !important;
 }
 
 /*# sourceMappingURL=community.css.map */
