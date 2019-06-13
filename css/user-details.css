@@ -166,56 +166,9 @@ footer h5 span.heart-beating svg {
   margin-right: 5px;
 }
 
-#profile-content .profile-image {
-  border-radius: 10px;
-  overflow: hidden;
-  height: 200px;
-  width: 200px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#profile-content .profile-image img {
-  height: 100%;
-  width: 100%;
-}
-#profile-content .user-info .user-info-name {
-  font-size: 2em;
-  color: #2D2D2D;
-}
-#profile-content .user-info h6 {
-  color: #606060;
-}
-#profile-content .medical-info h3 {
-  text-transform: capitalize;
-}
-#profile-content .medical-info .medical-info-items {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-#profile-content .medical-info .medical-info-items .medical-info-item {
-  margin-top: 5px;
-  padding: 5px 10px;
-  background-color: #E5E5E5;
-  width: 80%;
-  border-radius: 5px;
-}
-#profile-content .prev-diagnoses .diagnose .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-#profile-content .prev-diagnoses .diagnose .card img {
-  width: 80px;
-  height: 80px;
-  border-radius: 5px;
-  padding: 1px;
-  border: 1px solid #606060;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 5px 10px 5px 0;
-}
-#profile-content .prev-diagnoses .diagnose .card .card-title {
-  font-size: 1.5rem;
-}
-#profile-content .prev-diagnoses .diagnose .card .card-text {
-  color: #606060;
+.user-info {
+  position: sticky;
+  top: 0;
 }
 
-/*# sourceMappingURL=user_profile.css.map */
+/*# sourceMappingURL=user-details.css.map */

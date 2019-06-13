@@ -19,13 +19,14 @@ a
         text-decoration: none
 
 .content
-    min-height: calc(100vh - 106px)
+    min-height: calc(100vh - 100px)
 
 footer
-    height: 60px
+    // height: 60px
     background-color: $black
     text-align: center
     color: $white
+    margin-top: 10px
     h5
         padding: 15px 0
         margin: 0
@@ -37,8 +38,10 @@ footer
                 animation: beating .5s infinite linear
 
 .img-container
-    overflow: hidden
-    height: 100%
+    overflow: hidden!important
+    img
+        height: 100%
+        width: 100%
 
 .text-upper
     text-transform: uppercase
@@ -62,13 +65,33 @@ footer
     font-size: .2em
 
 .text-md
-    font-size: .5em
+    font-size: .8em
 
 .box-shadow 
     box-shadow: 0 0 20px 0 transparentize($black, .9%)
 
 .full-width
     width: 100%
+
+
+.large-width
+    width: 80%
+
+.half-width
+    width: 50%
+
+.small-width
+    width: 25%
+
+
+.box-shadow
+    box-shadow: -4px 2px 15px 0 transparentize(black, .8%)
+
+.box-shadow-animate
+    box-shadow: -2px 4px 15px 0 transparentize(black, .8%)
+    transition: .3s ease
+    &:hover
+        box-shadow: -2px 1px 8px 0 transparentize(black, .4%)
 
 
 @keyframes beating
