@@ -1,3 +1,7 @@
+* {
+  max-width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -56,12 +60,24 @@ footer h5 span.heart-beating svg {
   color: #939393;
 }
 
-.text-small {
-  font-size: 0.8em;
+.text-sm {
+  font-size: 0.6em;
 }
 
 .text-lite {
   font-weight: lighter;
+}
+
+.text-small {
+  font-size: 0.2em;
+}
+
+.text-md {
+  font-size: 0.5em;
+}
+
+.box-shadow {
+  box-shadow: 0 0 5px 0 rgba(45, 45, 45, 0.5);
 }
 
 @keyframes beating {

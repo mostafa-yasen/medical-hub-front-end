@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/font-awesome/css/all.min.css">
+
+    <link rel="stylesheet" href="css/doctor-profile.css">
+
+    <title>MedicalHub</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+
+        <div class="container">
+            <a class="navbar-brand" href="#">Medical<span>Hub</span></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navLinks"
+                aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navLinks">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="communities.html">Communities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="medical_hub/profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="medical_hub/doctor.html">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 box-shadow text-center pb-5 col-lg-3 bg-white">
+                    <div class="doctor-info mt-5">
+                        <div class="image-container">
+                            <img src="medical_hub/images/b.jpg" alt="not found">
+                        </div>
+                    </div>
+                    <h3 class="doctor-name text-fadded mb-0 mt-2">
+                        Dr. Mostafa Yasin
+                        <a href="#" class="text-info text-sm ml-1">
+                            <i class="fas fa-pencil-alt"></i>
+                        </a>
+                    </h3>
+                    <div class="doctor-rate text-warning text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <hr>
+
+                    <div class="doctor-address">
+                        13, Haram st, Giza.
+                        <a href="#" class="text-info ml-1">
+                            <i class="fas fa-pencil-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="doctor-phone">
+                        +20 11 546 285 93
+                        <a href="#" class="text-info ml-1">
+                            <i class="fas fa-pencil-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="card mt-3 mb-3">
+                        <div class="card-header">
+                            BIO
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore illum aperiam.
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12 col-lg-9 pt-5 pr-0 pl-5">
+                    <div class="row bg-light mb-2 mr-0 ml-0">
+                        <div class="col pl-0 pr-0">
+                            <div id="askedQuestionsBtn" class="text-center p-2">Recently Asked
+                                Questions
+                            </div>
+                        </div>
+                        <div class="col pl-0 pr-0">
+                            <div id="answeredQuestionsBtn" class="text-center bg-info text-light p-2">Answered Questions
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--
+                    <div id="askedQuestions">
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h5>Question By <span class="text-info">Ahmed Medhat</span> </h5>
+                                <p class="text-fadded-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Necessitatibus, neque cum omnis in quaerat quos corrupti ?</p>
+                            </div>
+                            <div class="card-body p-2">
+                                <textarea class="form-control" id="" rows="3"></textarea>
+                                <button class="btn btn-success d-block ml-auto mt-2 mb-1">Submit Answer</button>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <div class="card-header">
+                                <h5>Question By <span class="text-info">Ahmed Medhat</span> </h5>
+                                <p class="text-fadded-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    Necessitatibus, neque cum omnis in quaerat quos corrupti ?</p>
+                            </div>
+                            <div class="card-body p-2">
+                                <textarea class="form-control" id="" rows="3"></textarea>
+                                <button class="btn btn-success d-block ml-auto mt-2 mb-1">Submit Answer</button>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <div id="answeredQuestions">
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5>Question Asked Anounymously</h5>
+                                <p class="text-fadded">
+                                    cupiditate mollitia vitae optio quos porro voluptatem quibusdam, repudiandae enim
+                                    quod?
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <a class="close text-danger ml-2" aria-label="Close" style="font-size: 1.3em">
+                                    <span aria-hidden="">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </span>
+                                </a>
+
+                                <a class="close" aria-label="Close" style="font-size: 1.3em">
+                                    <span aria-hidden="">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </span>
+                                </a>
+
+                                <h5 class="text-info">Dr.Mostafa Yasin</h5>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, tenetur nam, ullam
+                                    fugiat voluptates, illo vitae temporibus esse quod quis obcaecati odit reiciendis
+                                    sed expedita! Debitis qui hic architecto harum?
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-2">
+                            <div class="card-header">
+                                <h5>Question Asked Anounymously</h5>
+                                <p class="text-fadded">
+                                    cupiditate mollitia vitae optio quos porro voluptatem quibusdam, repudiandae enim
+                                    quod?
+                                </p>
+                            </div>
+                            <div class="card-body">
+                                <a class="close text-danger ml-2" aria-label="Close" style="font-size: 1.3em">
+                                    <span aria-hidden="">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </span>
+                                </a>
+
+                                <a class="close" aria-label="Close" style="font-size: 1.3em">
+                                    <span aria-hidden="">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </span>
+                                </a>
+
+                                <h5 class="text-info">Dr.Mostafa Yasin</h5>
+                                <p class="card-text">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, tenetur nam, ullam
+                                    fugiat voluptates, illo vitae temporibus esse quod quis obcaecati odit reiciendis
+                                    sed expedita! Debitis qui hic architecto harum?
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Footer -->
+    <footer style="height: 60px">
+        <h5>Made With <span class="heart-beating text-danger"> <i class="fas fa-heart"></i> </span> under supervision of
+            FCI-Minia
+            University</h5>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="lib/font-awesome/js/all.min.js"></script>
+
+    <script src="lib/nice-scroll/jquery.nicescroll.min.js"></script>
+
+    <script src=""></script>
+</body>
+
+</html>
