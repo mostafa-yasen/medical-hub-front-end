@@ -331,6 +331,10 @@ a:hover {
   text-decoration: none;
 }
 
+.content {
+  min-height: calc(100vh - 106px);
+}
+
 footer {
   height: 60px;
   background-color: #2D2D2D;

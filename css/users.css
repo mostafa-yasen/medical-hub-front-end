@@ -139,29 +139,4 @@ footer h5 span.heart-beating svg {
   margin-right: 5px;
 }
 
-.doctor-details .doctor-info {
-  position: sticky;
-  top: 30px;
-}
-.doctor-details .image-container {
-  margin: 0 auto;
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: -6px 6px 10px rgba(45, 45, 45, 0.3);
-  transition: 0.3s ease;
-}
-.doctor-details .image-container img {
-  width: 100%;
-  height: 100%;
-  transition: 0.5s ease;
-}
-.doctor-details .image-container:hover {
-  box-shadow: -4px 4px 5px rgba(45, 45, 45, 0.2), 6px 6px 10px rgba(45, 45, 45, 0.2);
-}
-.doctor-details .image-container:hover img {
-  transform: scale(1.03);
-}
-
-/*# sourceMappingURL=doctor-details.css.map */
+/*# sourceMappingURL=users.css.map */
