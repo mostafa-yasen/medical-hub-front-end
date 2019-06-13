@@ -388,7 +388,11 @@ footer h5 span.heart-beating svg {
 }
 
 .box-shadow {
-  box-shadow: 0 0 5px 0 rgba(45, 45, 45, 0.5);
+  box-shadow: 0 0 20px 0 rgba(45, 45, 45, 0.1);
+}
+
+.full-width {
+  width: 100%;
 }
 
 @keyframes beating {
