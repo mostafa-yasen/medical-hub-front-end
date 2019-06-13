@@ -1,23 +1,18 @@
 $(function () {
+    var COMMUNITY = null;
 
-    // $("body").niceScroll({
-    //     cursorcolor: "#AC42B6",
-    //     cursoropacitymin: .5,
-    //     cursoropacitymax: .9,
-    //     cursorwidth: "5px", 
-    //     cursorborder: "none",
-    //     smoothscroll: false
-    // });
+    // to show community name in modal
+    $('#subscribe').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget) 
+        COMMUNITY = button.data('community');
+        
+        var modal = $(this)
+        modal.find('.modal-community-name').text(COMMUNITY)
+      })
 
-    // var navItems = $('.nav-item');
-
-    // for (let i = 0; i < navItems.length; i++) {
-    //     var el = navItems[i];
-    //     el = $(el);
-
-    //     el.on('click', function () {
-    //         $(this).addClass('active').siblings().removeClass('active');
-    //     });
-    // }
+    $('#confirm-subscribe').on('click', function (event) {
+        $('#diabites-card').find('.subscribe-btn').removeClass('btn-outline-danger').addClass("btn-secondary btn-disabled").attr('disabled', 'true');
+        $('#subscribe').modal('hide');
+    });    
 
 });
