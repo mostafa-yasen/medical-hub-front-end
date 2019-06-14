@@ -16,6 +16,30 @@
 </head>
 
 <body>
+
+    <!-- Start Modal -->
+    <div class="modal" id="diagnoseRequest" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-warning">Diagnosing Request</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>We're going to request a diagnose permission from <span class="text-info user-name">...</span>.. are you sure you want to proceed?</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="text-danger" data-dismiss="modal">Cancel</a>
+                    <button type="button" class="btn btn-danger">Proceed</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
+
+
     <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container">
@@ -98,7 +122,7 @@
 
                 <div class="col-sm-12 col-md-8 col-lg-9 pt-5 pb-5">
                     <h2 class="text-center text-fadded text-upper">Previous Diagnosis</h2>
-                    <button class="btn btn-danger d-block m-auto large-width">Diagnose Walid Qotb</button>
+                    <button class="btn btn-danger d-block m-auto large-width" data-toggle="modal" data-target="#diagnoseRequest" data-name="Walid Qutb" >Diagnose Walid Qotb</button>
 
                     <!-- Diagnose Cards List -->
                     <div class="card mt-3">
@@ -204,7 +228,7 @@
 
     <script src="lib/nice-scroll/jquery.nicescroll.min.js"></script>
 
-    <script src=""></script>
+    <script src="js/user-details.js"></script>
 </body>
 
 </html>
